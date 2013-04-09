@@ -1,0 +1,300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arro",
+				"arrowCanvas"
+			],
+			[
+				"arr",
+				"arrowCanvas"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bx",
+				"bxFixDef"
+			],
+			[
+				"mo",
+				"mouseY"
+			],
+			[
+				"mouse",
+				"mouseX"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"element",
+				"elements"
+			],
+			[
+				"label",
+				"labelAndValue"
+			],
+			[
+				"cur",
+				"curGEOID"
+			],
+			[
+				"le",
+				"legendHoverText"
+			],
+			[
+				"lege",
+				"legendHoverText"
+			],
+			[
+				"trun",
+				"truncatedDecimal"
+			],
+			[
+				"Po",
+				"Poverty"
+			],
+			[
+				"population",
+				"Population"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"proper",
+				"properGEOID"
+			],
+			[
+				"legend",
+				"legendColors"
+			],
+			[
+				"leg",
+				"legendColors"
+			],
+			[
+				"prope",
+				"properGEOID"
+			],
+			[
+				"statesT",
+				"stateTest"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10292,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 382.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/vector-game/index.html",
+		"/C/wamp/www/vector-game/js/excanvas.min.js",
+		"/C/Users/Alan/Documents/GitHub/wesketch-wp8/WeSketchWP8/WeSketch/EditSlideViewController.cs",
+		"/C/wamp/www/vector-game/js/jquery.pack.js",
+		"/C/Users/Alan/Documents/Retreat_2013_Program/array.cpp",
+		"/C/Users/Alan/Documents/Retreat_2013_Program/greatestElement.cpp",
+		"/C/wamp/www/TERSYET/data/tableconstants.json",
+		"/C/wamp/www/TERSYET/data/textconstants.json",
+		"/C/Users/Alan/AppData/Local/Temp/Rar$DR59.624/main.cpp",
+		"/C/Users/Alan/Desktop/indexnew.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hei",
+			"start",
+			"begin",
+			"mousem",
+			"yoff",
+			"read_p",
+			"stage",
+			"m0006",
+			"M0006",
+			"m0001",
+			"dropdown",
+			"myhtml =",
+			"stateTest",
+			"addCommas",
+			"legend",
+			"firstr",
+			"onloa",
+			"legendTitle",
+			"initi",
+			"if",
+			"divisions",
+			"colors",
+			"'",
+			"country",
+			"divisions",
+			"colors",
+			"legendcon",
+			"json",
+			"sql=SE",
+			"alert",
+			"sql=SELECT",
+			"1iS9bqd-CMHWJBH5hEHBApoD9e4_hlOz29WgXp_Y"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"countyTest"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9414,
+								9414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3312.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 53.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
