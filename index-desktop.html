@@ -18,6 +18,7 @@
 			right: 0;
 			top: 0;
 			bottom: 0;
+			z-index: 1;
 		}
 		
 		#arrowCanvas {
@@ -26,13 +27,14 @@
 			right: 0;
 			top: 0;
 			bottom: 0;
+			z-index: 2;
 		}
 	</style>
 
 </head>
 <body>
-	<canvas id="canvas" style=" position:absolute; left:0px; top:0px; z-index: 2"></canvas>
-	<canvas id="arrowCanvas" style=" position:absolute; left:0px; top:0px; z-index: 3" ></canvas>
+	<canvas id="canvas"></canvas>
+	<canvas id="arrowCanvas"></canvas>
 </body>
 
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
