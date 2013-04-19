@@ -16,17 +16,9 @@
 		}
 		
 		#canvas {
-			position: absolute;
 			image-rendering: optimizeSpeed;
 			-webkit-interpolation-mode: nearest-neighbor;
 			
-		}
-		
-		@media screen and (-webkit-min-device-pixel-ratio:2){
-            #canvas {
-				width: 320px;
-				height: 320px;
-			}
 		}
 		
 		.button {
@@ -59,8 +51,20 @@
 	
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
+	<script type="text/javascript">
+        function resizeCanvas(){
+            canvas = document.getElementById("canvas");
+            if(canvas.width < window.innerWidth){
+                canvas.width = window.innerWidth;
+            }
+
+            if(canvas.height < window.innerHeight){
+                canvas.height = window.innerHeight;
+            }
+        }
+    </script>
 </head>
-<body onload="window.scrollTo(0,1);">
+<body onresize="resizeCanvas()" onload="resizeCanvas()">
 	<div id="game">
 		<canvas id="canvas"></canvas>
 		<div class="button" id="buttonLeft"></div>
