@@ -28,11 +28,53 @@
 			}
 		}
 		
+		#overlay{
+			background-image: url('media/overlay-pixel.png');
+			background-repeat: repeat;
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			z-index: 1000;	
+			display:none;
+		}
+		
+		#messageBox{
+			width:416px;
+			height:240px;
+			border-radius:3px;
+			border:2px #FFBF00 solid;
+			margin:10% auto;
+			background-repeat:no-repeat;
+			position:relative;
+		}
+		
+		#close_btn{
+			width:24px;
+			height:25px;
+			padding:3px;
+			background-color:#FFBF00;	
+			font-family:"Courier New", Courier, monospace;
+			color:#ffffff;
+			position:absolute;
+			left:93%;
+			text-align:center;	
+			cursor:pointer;
+			font-size:20px;
+			font-weight:bold;
+		}
+		
 	</style>
 
 </head>
 <body>
 	<canvas id="canvas"></canvas>
+	<div id="overlay">
+		<div id="messageBox">
+			<div id="close_btn" onclick="tips.hide();">X</div>
+		</div>
+	</div>
 </body>
 
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -40,5 +82,5 @@
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
 	<script type="text/javascript" src="lib/plugins/dat.gui.min.js"></script>
-	
+	<script type="text/javascript" src="lib/game/tips.js"></script>
 </html>
