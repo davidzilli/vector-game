@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Biolab Disaster</title>
+	<title>Vector Game</title>
 	<link rel="Shortcut Icon" href="/favicon.ico" />
 	<style type="text/css">
 		html,body {
@@ -51,12 +51,92 @@
 		#game {
 			text-align: center;
 		}
+		
+			#overlay{
+			background-image: url('media/overlay-pixel.png');
+			background-repeat: repeat;
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			z-index: 1000;	
+			display:none;
+		}
+		
+		#messageBox{
+			width:416px;
+			height:240px;
+			border-radius:3px;
+			border:2px #FFBF00 solid;
+			margin:10% auto;
+			background-repeat:no-repeat;
+			position:relative;
+		}
+		
+		#close_btn{
+			width:24px;
+			height:25px;
+			padding:3px;
+			background-color:#FFBF00;	
+			font-family:"Courier New", Courier, monospace;
+			color:#ffffff;
+			position:absolute;
+			left:93%;
+			text-align:center;	
+			cursor:pointer;
+			font-size:20px;
+			font-weight:bold;
+		}
+		
+				
+		#overlay{
+			background-image: url('media/overlay-pixel.png');
+			background-repeat: repeat;
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			z-index: 1000;	
+			display:none;
+		}
+		
+		#messageBox{
+			width:416px;
+			height:240px;
+			border-radius:3px;
+			border:2px #FFBF00 solid;
+			margin:10% auto;
+			background-repeat:no-repeat;
+			position:relative;
+		}
+		
+		#close_btn{
+			width:24px;
+			height:25px;
+			padding:3px;
+			background-color:#FFBF00;	
+			font-family:"Courier New", Courier, monospace;
+			color:#ffffff;
+			position:absolute;
+			left:93%;
+			text-align:center;	
+			cursor:pointer;
+			font-size:20px;
+			font-weight:bold;
+		}
+		
+
+
 	</style>
 	<link rel="apple-touch-icon" href="media/touch-icon.png"/>
 	
 	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0;"/>
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
 	<script type="text/javascript" src="lib/game/tips.js"></script>
@@ -80,6 +160,12 @@
 		<div class="button" id="buttonRight"></div>
 		<div class="button" id="buttonShoot"></div>
 		<div class="button" id="buttonJump"></div>
+		<div id="overlay">
+		<div id="messageBox">
+			<div id="close_btn" onclick="tips.hide();">X</div>
+		</div>
+	</div>
+
 	</div>
 	
 	<script type="text/javascript">
